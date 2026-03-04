@@ -14,7 +14,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Calculator", page_icon="🧮")
 
-st.title("🧮 Streamlit Arithmetic Calculator")
+st.title(" Calculator", text_alignment="center")
 
 # Initialize session state
 if "expression" not in st.session_state:
